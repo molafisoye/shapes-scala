@@ -1,4 +1,4 @@
-package edu.luc.cs.laufer.cs372.shapes
+package edu.luc.cs.laufer.cs371.shapes
 
 // TODO: implement this behavior
 
