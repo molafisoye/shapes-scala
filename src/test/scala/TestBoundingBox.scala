@@ -3,6 +3,7 @@ package edu.luc.cs.laufer.cs371.shapes
 import org.scalatest.funsuite.AnyFunSuite
 
 import TestFixtures._
+import Shape._
 
 class TestBoundingBox extends AnyFunSuite {
 

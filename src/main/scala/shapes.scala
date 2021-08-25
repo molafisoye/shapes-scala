@@ -3,10 +3,10 @@ package edu.luc.cs.laufer.cs371.shapes
 /**
   * data Shape = Rectangle(w, h) | Location(x, y, Shape)
   */
-sealed trait Shape
+enum Shape:
 
-case class Rectangle(width: Int, height: Int) extends Shape
+  case Rectangle(width: Int, height: Int)
 
-case class Location(x: Int, y: Int, shape: Shape) extends Shape
+  case Location(x: Int, y: Int, shape: Shape)
 
-// TODO add missing case classes (see test fixtures)
+// TODO add missing cases (see test fixtures)

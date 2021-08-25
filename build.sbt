@@ -1,6 +1,6 @@
 name := "shapes-oo-scala"
 
-version := "0.3"
+version := "0.4"
 
 scalaVersion := "3.0.1"
 

@@ -1,5 +1,7 @@
 package edu.luc.cs.laufer.cs371.shapes
 
+import Shape._
+
 object TestFixtures {
 
   // TODO comment these fixtures back in after adding the required case classes
