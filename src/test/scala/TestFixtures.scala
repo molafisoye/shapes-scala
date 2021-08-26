@@ -1,6 +1,6 @@
 package edu.luc.cs.laufer.cs371.shapes
 
-import Shape._
+import Shape.*
 
 object TestFixtures {
 
