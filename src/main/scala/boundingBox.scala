@@ -5,7 +5,6 @@ package edu.luc.cs.laufer.cs371.shapes
 import Shape.*
 
 object boundingBox {
-  def apply(s: Shape): Location = s match {
+  def apply(s: Shape): Location = s match
     case _ => Location(0, 0, Rectangle(0, 0)) // not yet implemented
-  }
 }
