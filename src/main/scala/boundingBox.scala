@@ -1,10 +1,11 @@
 package edu.luc.cs.laufer.cs371.shapes
 
-// TODO: implement this behavior
+// DONE: implement this behavior
 
 import Shape.*
 
 object boundingBox {
   def apply(s: Shape): Location = s match
-    case _ => Location(0, 0, Rectangle(0, 0)) // not yet implemented
+    case Rectangle(w,h) => Location(0,0, Rectangle(w,h))
+    case _ => Location(0, 0, Rectangle(0, 0)) // implemented
 }
