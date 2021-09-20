@@ -34,3 +34,12 @@ object TestFixtures {
         Rectangle(100, 200)
       ))
 }
+
+// some guidelines:
+// add sizeBehavior
+// add TestSize, TestHeight,TestScale
+// test simpleEllipse //(start at 1)
+// assert(size == 1)
+// basically make a line 10 but implement for size (duplicate it to work for size)
+// size counts only concrete leaf shapes (size ignores locations and groups)
+// the height looks at the actual height of the tree
